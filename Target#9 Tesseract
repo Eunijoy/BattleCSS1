@@ -1,0 +1,43 @@
+<div class="gray"></div>
+<div class="rect"></div>
+<div class="center"></div>
+<div class="circle"></div>
+<style>
+  body{
+    background: #222730;
+  }
+  .gray{
+    background:#222730;
+    width: 250px;
+    height:250px;
+    transform: rotate(45deg);
+    position:absolute;
+    top:28px;
+    left:80px;
+  }
+.rect{
+    background:#4CAAB3;
+    width: 700px;
+    height:150px;
+    margin-top: 75px;
+  } 
+  
+  .center{
+    width: 150px;
+    height: 150px;
+    background: #4CAAB3;
+    transform: rotate(46deg);
+    position:absolute;
+    top: 80px;
+    left: 125px;
+  }
+  .circle{
+    width:50px;
+    height:50px;
+    background: #393E46;
+    border-radius: 100px;
+    position:absolute;
+    left: 177px;
+    top: 125px;
+  }
+</style>
