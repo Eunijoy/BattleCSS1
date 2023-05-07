@@ -1,0 +1,45 @@
+<div class="one"></div>
+<div class="two"></div>
+<div class="three"></div>
+<div class="four"></div>
+<div class="center"></div>
+<div class="feet"></div>
+<style>
+  body{
+    background:#6592CF;
+  }
+   div{
+    width: 22px;
+    height:100px;
+    background: #060F55;
+    border-radius: 50px 50px 0 0;
+    display: inline-block;
+    position:absolute;
+    top: 50px;
+  }
+  .one{
+   left: 128px;
+  }
+  .two{
+    left: 170px;
+  }
+  .three{
+    left: 210px;
+  }
+  .four{
+    left:256px;
+  }
+  .center {
+    width: 150px;
+    height: 100px;
+    background: #060F55;
+    border-radius: 0 0 100px 100px;
+    position:relative;
+    top:140px;
+    left:120px;
+  }
+  .feet{
+    top:200px;
+    left: 190px;
+  }
+</style>
