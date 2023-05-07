@@ -1,0 +1,72 @@
+<div id="one"></div>
+<div id="two"></div>
+<div id="three"></div>
+<div class="crcl left"></div>
+<div class="crcl center"></div>
+<div class="crcl right"></div>
+<div class="small lft"></div>
+<div class="small ctr"></div>
+<div class="small rght"></div>
+<style>
+  body{
+    background:#62306D;
+  }
+  div{
+    width: 100px;
+    height: 200px;
+    background: #F7EC7D;
+    border-radius: 100px;
+    display:inline-block;
+    position:relative;
+  }
+  #one{
+    top:61px;
+    left:43px;
+  }
+  #two{
+    height:280px;
+    left:35px;
+    top:42px;
+  }
+  #three{
+    top:64px;
+    left:27px;
+  }
+  .crcl{
+    width:100px;
+    height:100px;
+    background:#AA445F;
+  }
+  .left{
+    bottom:144px;
+    left:42px;
+  }
+  .center{
+    bottom:243px;
+    left:35px;
+    background:#E38F66;
+  }
+  .right{
+    bottom:144px;
+    left:29px;
+  }
+  .small{
+    border-radius:100px;
+    width:60px;
+    height:60px;
+    background:#E38F66;
+  }
+  .lft{
+    bottom:162px;
+    right:251px;
+  }
+  .ctr{
+    bottom:326px;
+    left:160px;
+    background:#AA445F;
+  }
+  .rght{
+    bottom:228px;
+    left:195px;
+  }
+</style>
