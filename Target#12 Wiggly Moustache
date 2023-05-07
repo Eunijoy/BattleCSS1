@@ -1,0 +1,33 @@
+<div id="left"></div>
+<div id="center"></div>
+<div id="right"></div>
+<style>
+  body{
+    background:#F5D6B4;
+  }
+  div{
+    width: 100px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 20px solid #D86F45;
+    border-top: 0;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+  }
+  #left {
+    position:absolute;
+    top:150px;
+    left:70px;
+  }
+  #center{
+    position:absolute;
+    top:100px;
+    left:150px;
+    transform: scaleY(-1);
+  }
+  #right{
+    position:absolute;
+    top:150px;
+    left:230px;
+  }
+</style>
