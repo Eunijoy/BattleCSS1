@@ -1,0 +1,31 @@
+<div class="blue"></div>
+<div class="cream"></div>
+<div class="white"></div>
+<style>
+  body{
+    background:#E3516E;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px 0 0 0;
+     position:relative;
+  }
+  .blue{
+    background: #51B5A9;
+    left: 92px;
+    top:42px;
+  }
+  .cream{
+    background:#FADE8B;
+    bottom: 58px;
+    left: 192px;
+    transform:rotate(90deg);
+  }
+  .white{
+    background:#F7F3D7;
+    transform: rotate(-90deg);
+    bottom: 58px;
+    left: 92px;
+  }
+</style>
