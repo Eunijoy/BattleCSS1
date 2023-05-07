@@ -1,0 +1,31 @@
+<div class="first"></div>
+<div class="ctr"></div>
+<div class="last"></div>
+<style>
+  body{
+    background:#0B2429;
+  }
+  div {
+    width: 150px;
+    height: 150px;
+    border-radius: 90px 0;
+  }
+  .first{
+    background:#1A4341;
+    position:absolute;
+    left: 80px;
+    top:75px;
+  }
+  .ctr{
+    background: #998235;
+    position:relative;
+    top:67px;
+    left:120px
+  } 
+  .last{
+    background:#F3AC3C;
+    position:absolute;
+    top:75px;
+    left: 180px;
+  }
+</style>
